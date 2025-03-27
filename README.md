@@ -11,4 +11,4 @@ El sistema propuesto permitirá registrar pacientes y profesionales de la salud,
 Con esta solución, el centro de salud podrá reducir errores administrativos, mejorar la experiencia del paciente y optimizar el uso de los recursos médicos, marcando un paso importante en su proceso de digitalización.
 
 # Diagrama y diseño
-* [Anexos](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/Anexos.md)
+* [Anexos](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/anexos.md)
