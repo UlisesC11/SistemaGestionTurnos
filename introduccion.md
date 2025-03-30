@@ -38,49 +38,66 @@ El modelo orientado a objetos revoluciona la forma en que concebimos y desarroll
 
 ## Casos de uso
 
-1. * Nombre del caso de uso: Registrar un paciente
-   * Actores involucrados: Personal autorizado
-   * Descripcion: permite registrar pacientes con sus datos personales al sistema
-   * Flujo principal de eventos:
-        1. hacer clic en boton de "registrar paciente"
-        2. ingresar los datos personales del paciente
-        3. confirmar los datos y guardar la informacion
-   * Precondiciones: el personal autorizado debe estar registrado
-   * Postcondiciones: el paciente queda registrado en el sistema
+__1er caso de uso__
+* Nombre: Registrar un paciente
+* Actores involucrados: Personal autorizado
+* Descripcion: permite registrar pacientes con sus datos personales al sistema
+* Flujo principal de eventos:
+1. el personal autorizado ingresa al sistema y elige la opcion "registrar paciente"
+2. ingresa los datos personales del paciente
+3. confirma los datos y guarda la informacion
+* Precondiciones: el personal autorizado debe estar registrado
+* Postcondiciones: el paciente queda registrado en el sistema
 
-2. * Nombre del caso: Agendar un turno
-   * Actores involucrados: personal autorizado, paciente
-   * Descripcion: permite asignar un turno a un paciente 
-   * Flujo principal de eventos:
-        1. el paciente solicita un turno
-        2. el personal autoriazado se fija que turnos estan disponibles
-        3. el personal autoriazado elige fecha y hora del turno disponible
-        4. se le asigna el turno al paciente
-        5. se envia notificacion al paciente y medico sobre el turno
-   * Precondiciones: el paciente tiene que estar registrado en el sistema
-   * Postcondiciones: el turno queda agendado y se notifica
 
-3. * Nombre del caso:
-   * Actores involucrados:
-   * Descripcion:
-   * Flujo principal de eventos:
-   * Precondiciones
-   * Postcondiciones
+__2do caso de uso__
+* Nombre: Agendar un turno
+* Actores involucrados: personal autorizado, paciente
+* Descripcion: permite asignar un turno a un paciente 
+* Flujo principal de eventos:
+1. el paciente solicita un turno
+2. el personal autoriazado se fija que turnos estan disponibles
+3. el personal autoriazado elige fecha y hora del turno disponible
+4. se le asigna el turno al paciente
+5. se envia notificacion al paciente y medico sobre el turno
+* Precondiciones: el paciente tiene que estar registrado en el sistema
+* Postcondiciones: el turno queda agendado y se notifica
 
-4. * Nombre del caso:
-   * Actores involucrados:
-   * Descripcion:
-   * Flujo principal de eventos:
-   * Precondiciones
-   * Postcondiciones
+__3er caso de uso__
+* Nombre: confirmar turno
+* Actores involucrados: paciente
+* Descripcion: permite que el paciente confirme el turno que se le asigno
+* Flujo principal de eventos:
+1. el sistema envia una notificacion al paciente para confirmar
+2. el paciente responde la confirmacion, puede ser mediante mensaje o correo
+3. se actualiza el estado del turno a "confirmado"
+* Precondiciones: el paciente debe tener un turno asignado
+* Postcondiciones: el turno cambia de estado a "confirmado"
+
+__4to caso de uso__
+* Nombre: cancelar turno
+* Actores involucrados: paciente, medico
+* Descripcion: permite que el paciente cancele el truno que se le asigno
+* Flujo principal de eventos:
+1. el paciente ingresa al sistema
+2. elige la opcion de "cancelar turno"
+3. selecciona el turno que tenia asignado
+4. se actualiza el estado del turno a "cancelado"
+5. se notifica al paciente y medico que el turno fue cancelado
+* Precondiciones: el paciente debe tener un turno ya confirmado
+* Postcondiciones: el turno cambia de estado a "cancelado"
+
+__5to caso de uso__
+* Nombre: historial de turnos del paciente
+* Actores involucrados: personal autorizado, medico
+* Descripcion: permite ver el historial de los turnos que tuvo y tendra un paciente
+* Flujo principal de eventos:
+1. el personal autorizado o medico ingresan al sistema
+2. buscan al paciente en el sistema
+3. eligen la opcion de "historial de turnos"
+4. muesta los turnos asociados al paciente
+* Precondiciones: el paciente tiene que estar registrado en el sistema
+* Postcondiciones: se muestra el historial de turnos en pantalla
   
-5. * Nombre del caso:
-   * Actores involucrados:
-   * Descripcion:
-   * Flujo principal de eventos:
-   * Precondiciones
-   * Postcondiciones
-  
-
-
 ## Boceto inicial del diseño de clases
+
