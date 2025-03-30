@@ -30,8 +30,57 @@ El modelo orientado a objetos revoluciona la forma en que concebimos y desarroll
 
 ## Requisitos iniciales del sistema
 
+* 1er requisito: el sistema debe permitir asignar turnos a los pacientes
+* 2do requisito: enviar notificaciones a los pacientes y medicos cuando los turnos se confirman, cancelan o modifican
+* 3er requisito: registrar pacientes con sus datos personales y tener asociado un historial de turnos
+* 4to requisito: registrar medicos con sus datos personales, especialidad y horarios de atencion
+* 5to requisito: tener un sistema de autentificacion para poder diferenciar entre pacientes, medicos y personal autorizado
 
 ## Casos de uso
+
+1. * Nombre del caso de uso: Registrar un paciente
+   * Actores involucrados: Personal autorizado
+   * Descripcion: permite registrar pacientes con sus datos personales al sistema
+   * Flujo principal de eventos:
+        1. hacer clic en boton de "registrar paciente"
+        2. ingresar los datos personales del paciente
+        3. confirmar los datos y guardar la informacion
+   * Precondiciones: el personal autorizado debe estar registrado
+   * Postcondiciones: el paciente queda registrado en el sistema
+
+2. * Nombre del caso: Agendar un turno
+   * Actores involucrados: personal autorizado, paciente
+   * Descripcion: permite asignar un turno a un paciente 
+   * Flujo principal de eventos:
+        1. el paciente solicita un turno
+        2. el personal autoriazado se fija que turnos estan disponibles
+        3. el personal autoriazado elige fecha y hora del turno disponible
+        4. se le asigna el turno al paciente
+        5. se envia notificacion al paciente y medico sobre el turno
+   * Precondiciones: el paciente tiene que estar registrado en el sistema
+   * Postcondiciones: el turno queda agendado y se notifica
+
+3. * Nombre del caso:
+   * Actores involucrados:
+   * Descripcion:
+   * Flujo principal de eventos:
+   * Precondiciones
+   * Postcondiciones
+
+4. * Nombre del caso:
+   * Actores involucrados:
+   * Descripcion:
+   * Flujo principal de eventos:
+   * Precondiciones
+   * Postcondiciones
+  
+5. * Nombre del caso:
+   * Actores involucrados:
+   * Descripcion:
+   * Flujo principal de eventos:
+   * Precondiciones
+   * Postcondiciones
+  
 
 
 ## Boceto inicial del diseño de clases
