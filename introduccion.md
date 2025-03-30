@@ -100,4 +100,7 @@ __5to caso de uso__
 * Postcondiciones: se muestra el historial de turnos en pantalla
   
 ## Boceto inicial del diseño de clases
+Identificacion de las clases, atributos y metodos
+1. ![image](https://github.com/user-attachments/assets/b3398e77-8732-43fa-b05c-596f88762900)   2. ![image](https://github.com/user-attachments/assets/0c6800a7-66e5-42ea-8e1b-2bc1b65b5fdd)   3. ![image](https://github.com/user-attachments/assets/8713c935-16e8-406c-a261-aa2f4136d7c7)   4. ![image](https://github.com/user-attachments/assets/096fdfa8-cf31-4c58-b5f6-7dcf21470160)   5. ![image](https://github.com/user-attachments/assets/6a0aa8b7-6fed-4701-bf05-85223304d46f)
 
+Visualizar el boceto inicial en [linea](https://drive.google.com/file/d/1KmyeonzRwn870MeYciVwaSlAxfXEdGyh/view?usp=sharing)
