@@ -10,5 +10,5 @@ En la actualidad, un pequeño centro de salud enfrenta dificultades en la gesti�
 El sistema propuesto permitirá registrar pacientes y profesionales de la salud, asignar turnos según la disponibilidad de cada médico y llevar un historial detallado de cada consulta. Además, incluirá notificaciones automáticas para confirmar, cancelar o modificar turnos, garantizando una mejor comunicación entre el centro, los médicos y los pacientes. También se priorizará la seguridad de los datos, asegurando que solo el personal autorizado pueda acceder a la información confidencial.
 Con esta solución, el centro de salud podrá reducir errores administrativos, mejorar la experiencia del paciente y optimizar el uso de los recursos médicos, marcando un paso importante en su proceso de digitalización.
 
-# Diagrama y diseño
+# Diagramas y Diseños
 * [Anexos](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/anexos.md)
