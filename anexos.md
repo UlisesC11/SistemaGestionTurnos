@@ -1,2 +1,2 @@
 # Anexos
-* Anexo - Introduccion al Diseño Orienta a Objetos [clic aqui para ver](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/introduccion.md)
+* [Anexo - Introduccion al Diseño Orientado a Objetos](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/introduccion.md)
