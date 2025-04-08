@@ -12,3 +12,5 @@ Con esta solución, el centro de salud podrá reducir errores administrativos, m
 
 # Diagramas y Diseños
 * [Anexos](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/anexos.md)
+* [Diagramas UML](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/diagramasUML.md)
+* [Herramientas Agile]()
