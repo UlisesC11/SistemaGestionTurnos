@@ -112,11 +112,12 @@ __5to caso de uso__
   
 ## Boceto inicial del diseño de clases
 Identificacion de las clases, atributos y metodos
-1. ![image](https://github.com/user-attachments/assets/697f1662-1a36-48bb-9a0c-211838cf7207)
-2. ![image](https://github.com/user-attachments/assets/1fe0842d-7bd6-46a3-91ae-e18ce361739e)
-3. ![image](https://github.com/user-attachments/assets/8c553ee2-6400-4b38-aaf2-607655f29d25)
-4. ![image](https://github.com/user-attachments/assets/111037b6-17cb-4c82-bc11-ed71464f3249)
-5. ![image](https://github.com/user-attachments/assets/42edd3d4-fadf-4052-9848-6ea47f88b810)
+1. ![image](https://github.com/user-attachments/assets/6b7a1290-6297-4de1-b9b4-4914560ab5b3)
+2. ![image](https://github.com/user-attachments/assets/02340d58-21a3-46a6-9dcc-b0bd723c5874)
+3. ![image](https://github.com/user-attachments/assets/c6f207ee-51cf-4b52-ae52-0c0f3caa1033)
+4. ![image](https://github.com/user-attachments/assets/33f6308f-53a3-4543-bf5b-d7c8691eed8f)
+5. ![image](https://github.com/user-attachments/assets/239831c3-8abb-441b-a9dd-4696b44ca0c1)
+
 
 [Visualizar en linea](https://drive.google.com/file/d/1KmyeonzRwn870MeYciVwaSlAxfXEdGyh/view?usp=sharing)
 
