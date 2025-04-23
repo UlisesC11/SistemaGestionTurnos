@@ -43,12 +43,17 @@ __1er caso de uso__
 * Actores involucrados: Personal autorizado
 * Descripcion: permite registrar pacientes con sus datos personales al sistema
 * Flujo principal de eventos:
-1. el personal autorizado ingresa al sistema
-2. elige la opcion "registrar paciente"
-3. el sistema muestra un formulario para completar
-4. ingresa los datos personales del paciente
-5. el sistema valida la informacion ingresada
-6. el sistema registra al paciente y guarda la informacion
+1. El personal autorizado ingresa al sistema mediante su usuario y contraseña
+2. El sistema verifica las credenciales y permite el acceso
+3. El personal autorizado va hacia el apartado de gestión de pacientes
+4. Selecciona la opción "Registrar paciente"
+5. El sistema muestra un formulario para completar con los datos personales del paciente
+6. Ingresa los datos personales del paciente: nombre completo, DNI, fecha de nacimiento, telefono, mail, etc
+7. El sistema valida cada campo: formato, campos obligatorios, datos duplicados
+8. Si hay errores, muestra mensajes específicos y permite corregirlos.
+9. Una vez todos los datos están validados, el personal hace clic en "Guardar"
+10. El sistema almacena los datos en la base de datos
+11. Se muestra un mensaje de confirmación del registro exitoso
 * Precondiciones: el personal autorizado debe estar registrado
 * Postcondiciones: el paciente queda registrado en el sistema
 
@@ -58,57 +63,77 @@ __2do caso de uso__
 * Actores involucrados: personal autorizado, paciente
 * Descripcion: permite asignar un turno a un paciente 
 * Flujo principal de eventos:
-1. el paciente solicita un turno
-2. el personal autorizado se fija que el paciente este registrado 
-3. el personal autorizado valida que si esta registrado
-4. se selecciona el paciente
-5. se selecciona el medico con el que quiere atenderse
-6. se selecciona fecha y hora disponible
-7. se ingresa el motivo del turno
-8. se le asigna el turno al paciente
-9. se envia notificacion al paciente y medico sobre el turno
+1. El paciente solicita un turno, ya sea presencial o por llamada
+2. El personal autorizado accede al sistema
+3. Va hacia el apartado de turnos
+4. Verifica que el paciente este registrado en el sistema
+5. En caso de no estarlo, se sugiere registrarlo previamente
+6. Selecciona al paciente desde una lista o buscador despues de validar que esta registrado
+7. Se abre una vista con los medicos disponibles
+8. El personal autorizado consulta la disponibilidad de los medicos
+9. Se selecciona el médico según especialidad o preferencia del paciente
+10. Se elige una fecha y hora entre los horarios disponibles
+11. Se ingresa el motivo de la consulta o atencion
+12. El sistema valida que el turno no este duplicado ni se superponga
+13. El turno se agenda y queda con estado "pendiente"
+14. El sistema genera una notificacion con los detalles del turno
+15. Se envia dicha notificación al paciente y al medico, por email o mensaje interno del sistema
 * Precondiciones: el paciente tiene que estar registrado en el sistema
-* Postcondiciones: el turno queda agendado con estado en "pendiente"
+* Postcondiciones: el turno queda agendado con estado "pendiente"
 
 __3er caso de uso__
 * Nombre: confirmar turno
-* Actores involucrados: personal autorizado, paciente
+* Actores involucrados: personal autorizado, paciente, medico
 * Descripcion: permite que el paciente confirme el turno que se le asigno
 * Flujo principal de eventos:
-1. el personal autorizado ingresa al sistema
-2. el personal autorizado se fija en la agenda de turnos
-3. selecciona el turno a confirmar
-4. se actualiza el estado del turno a "confirmado"
-5. se le notifica el estado del turno al paciente y al medico
+1. El personal autorizado accede al sistema
+2. Va hacia el apartado de agenda de turnos
+3. Filtra los turnos por estado “pendiente”
+4. Busca y selecciona el turno correspondiente
+5. Se visualizan los detalles del turno (paciente, medico, fecha, hora, motivo)
+6. El sistema solicita confirmacion del paciente (puede ser presencial, llamada u otro medio)
+7. El personal hace clic en la opción "Confirmar turno"
+8. El sistema actualiza el estado del turno a "confirmado"
+9. Se registra la fecha y hora de confirmacion
+10. Se notifica al paciente y al medico el cambio de estado
+11. Se actualiza la agenda de turnos en tiempo real
 * Precondiciones: el paciente debe tener un turno asignado con estado "pendiente"
-* Postcondiciones: el turno cambia de estado a "confirmado"
+* Postcondiciones: el estado del turno cambia a "confirmado"
 
 __4to caso de uso__
 * Nombre: cancelar turno
-* Actores involucrados: personal autorizado
+* Actores involucrados: personal autorizado, paciente, medico
 * Descripcion: permite que el paciente cancele el truno que se le asigno
 * Flujo principal de eventos:
-1. el personal autorizado ingresa al sistema
-2. el personal autorizado se fija en la agenda de turnos
-3. selecciona el turno a "cancelar"
-4. se despliega una doble confirmacion
-5. se actualiza el estado del turno a "cancelado"
-6. se le notifica el estado del turno al paciente y al medico
+1. El personal autorizado ingresa al sistema
+2. Va hacia el apartado de agenda de turnos
+3. Filtra los turnos por estado "confirmado"
+4. Selecciona el turno a cancelar
+5. El sistema muestra los detalles del turno y un boton para cancelar
+6. Se despliega una ventana de doble confirmación con motivo de cancelacion
+7. El personal confirma la cancelacion
+8. El sistema actualiza el estado del turno a "cancelado"
+9. Se registra la fecha, hora y motivo de la cancelacion
+10. Se notifica al paciente y al medico sobre la cancelacion
+11. Se libera el horario en la agenda del medico para futuros turno
 * Precondiciones: el turno debe tener un estado de "confirmado"
-* Postcondiciones: el turno cambia de estado a "cancelado"
+* Postcondiciones: el turno cambia de estado a "cancelado" y se libera el horario de dicho turno
 
 __5to caso de uso__
 * Nombre: historial de turnos del paciente
 * Actores involucrados: personal autorizado, medico
 * Descripcion: permite ver el historial de los turnos que tuvo y tendra un paciente
 * Flujo principal de eventos:
-1. el personal autorizado ingresa al sistema
-2. busca al paciente en el sistema
-3. selecciona la opcion "ver historial de turnos"
-4. el sistema muestra los turnos que tuvo y tendra el paciente
-5. puede filtrar por fechas, estado, etc
+1. El personal autorizado accede al sistema
+2. Va hacia el apartado de modulo de pacientes
+3. Utiliza el buscador para localizar al paciente (DNI, nombre, etc)
+4. Selecciona la opcion "ver historial de turnos"
+5. El sistema muestra una lista de turnos pasados y futuros del paciente
+6. Cada turno se muestra con el estado, fecha, hora, médico y motivo
+7. Se habilitan filtros por fechas, estado, especialidad, medico, etc
+8. El sistema permite exportar el historial en PDF o imprimirlo
 * Precondiciones: el paciente tiene que estar registrado en el sistema
-* Postcondiciones: se muestra el historial de turnos en pantalla
+* Postcondiciones: se muestra el historial de turnos en pantalla con la opcion de poder exportarlo
   
 ## Boceto inicial del diseño de clases
 Identificacion de las clases, atributos y metodos
