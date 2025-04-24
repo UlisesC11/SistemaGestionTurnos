@@ -136,7 +136,7 @@ __5to caso de uso__
 * Postcondiciones: se muestra el historial de turnos en pantalla con la opcion de poder exportarlo
   
 ## Boceto inicial del diseño de clases
-Identificacion de las clases, atributos y metodos
+Identificacion de las clases, atributos y metodos (mejorado). 
 1. ![image](https://github.com/user-attachments/assets/609c8934-026a-4a46-ab74-c4e2e7ca0809)
 2. ![image](https://github.com/user-attachments/assets/6ccc4fcd-16af-488c-b551-f8281f4f646a)
 3. ![image](https://github.com/user-attachments/assets/06c72690-29c2-4abe-87b7-6ef9382f02fe)
