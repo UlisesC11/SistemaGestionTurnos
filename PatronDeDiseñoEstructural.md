@@ -1,6 +1,6 @@
 # Anexo - Aplicacion de Patron de Diseño estructural - NombrePatronElegido
 
-Una  breve  explicación  de  que  son  los  patrones  de  diseño  creacionales,  y  cómo  se relacionan con los principios SOLID.
+Una  breve  explicación  de  que  son  los  patrones  de  diseño  estructural,  y  cómo  se relacionan con los principios SOLID.
 
 Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
 
