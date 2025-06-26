@@ -1,6 +1,11 @@
-# Anexo - Aplicacion de Patron de Diseño de comportamiento - NombrePatronElegido
+# Anexo - Aplicacion de Patron de Diseño de Comportamiento - Observer
 
-Una  breve  explicación  de  que  son  los  patrones  de  diseño  de comportamiento,  y  cómo  se relacionan con los principios SOLID.
+Proposito de los patrones de comportamiento: Definir como interactuan los objetos entre si, quien toma decisiones, como se comunican o como se reparten responsabilidades.
+
+Relacion con SOLID:
+* Principio de Abierto/Cerrado (OCP): Nuevos comportamientos se pueden agregar facilmente.
+* Principio de Responsabilidad Única (SRP): Separan la logica de decisiones del resto del sistema.
+* Principio de Inversión de Dependencias (DIP): Permiten comunicar objetos a traves de abstracciones.
 
 Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
 
