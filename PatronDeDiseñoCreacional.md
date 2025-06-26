@@ -1,4 +1,4 @@
-# Anexo - Aplicacion de Patron de Diseño Creacional - NombrePatronElegido
+# Anexo - Aplicacion de Patron de Diseño Creacional - Factory Method
 
 Proposito de los patrones creacionales: Controlar como se crean los objetos, dando flexibilidad para instanciarlos sin acoplar el codigo a clases concretas.
 
@@ -6,12 +6,11 @@ Relacion con SOLID:
 * Principio de Responsabilidad Única (SRP): Separan la logica de creación del objeto de su uso.
 * Principio de Inversión de Dependencia (DIP): Permiten depender de abstracciones en lugar de clases concretas.
 
-Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
+Propósito  y  Tipo  del  Patrón:  El patrón Factory Method permite delegar la creación de objetos a subclases, encapsulando el proceso de instanciación y permitiendo que el código cliente dependa de abstracciones en lugar de clases concretas. Es útil cuando se desea crear objetos similares pero con algunas diferencias en su implementación o comportamiento, sin acoplar el sistema a tipos específicos.
 
 ## Motivacion
-Un  detalle  más  profundo  del  problema  que  enfrentaba  el  sistema  y  cómo  el  patrón de  diseño  ayuda  a  resolverlo.  Incluye  una  explicación  más  detallada  de  las  clases 
-implicadas  en  el  problema,  y  las  nuevas  clases  que  se  incorporan  con  el  uso  del patrón y su función.
+En el sistema de gestión de turnos, se deben crear distintos tipos de objetos como Paciente, Medico, Recepcion. Sin el patrón Factory Method, la lógica de creación de estos objetos estaría dispersa por todo el sistema, generando acoplamiento innecesario y dificultando la modificación o extensión futura. Al implementar el patrón, se centraliza la lógica de creación en clases específicas como: UsuarioFafrica con metodos crearUsuario().
 
 ## Estructura de Clases
-Incluir  un  diagrama  de  clases  UML  que  muestra  cómo  las  clases  implicadas  en  el problema  planteado  del  proyecto  se  relacionan  entre  sí  al  aplicar  el  patrón. Incluir 
-una  imagen incrustada, así como el enlace correctamente referenciado para ver el diagrama en detalle. 
+
+![image](https://github.com/user-attachments/assets/a778969d-2d40-42c6-be8d-e119524eca82)
