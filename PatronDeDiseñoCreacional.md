@@ -1,6 +1,10 @@
-# Anexo - Aplicacion de Patron de Diseño creacional - NombrePatronElegido
+# Anexo - Aplicacion de Patron de Diseño Creacional - NombrePatronElegido
 
-Una  breve  explicación  de  que  son  los  patrones  de  diseño  creacionales,  y  cómo  se relacionan con los principios SOLID.
+Proposito de los patrones creacionales: Controlar como se crean los objetos, dando flexibilidad para instanciarlos sin acoplar el codigo a clases concretas.
+
+Relacion con SOLID: 
+* Principio de Responsabilidad Única (SRP): Separan la logica de creación del objeto de su uso.
+* Principio de Inversión de Dependencia (DIP): Permiten depender de abstracciones en lugar de clases concretas.
 
 Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
 
