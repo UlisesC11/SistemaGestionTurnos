@@ -1,6 +1,10 @@
-# Anexo - Aplicacion de Patron de Diseño estructural - NombrePatronElegido
+# Anexo - Aplicacion de Patron de Diseño Estructural - NombrePatronElegido
 
-Una  breve  explicación  de  que  son  los  patrones  de  diseño  estructural,  y  cómo  se relacionan con los principios SOLID.
+Proposito de los patrones estructurales: Organizar las relaciones entre clases y objetos, facilitando la reutilización y el mantenimiento del codigo.
+
+Relacion con SOLID:
+* Principio de Abierto/Cerrado (OCP): Permiten extender funcionalidades sin modificar el codigo existente.
+* Principio de Sustitución de Liskov (LSP): Facilitan el uso de estructuras intercambiables de manera segura.
 
 Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
 
