@@ -14,5 +14,6 @@ En el sistema de gestión de turnos, cada vez que se crea, modifica o cancela un
 
 ## Estructura de Clases
 [Enlace del diagrama](https://drive.google.com/file/d/1pbEuUfzRWZfqrHzj2tz5NFHcwwk31Ww_/view?usp=sharing)
-![image](https://github.com/user-attachments/assets/36bfa410-31cd-42e1-96e0-90925099e8d7)
+![image](https://github.com/user-attachments/assets/46208e6d-fe01-4e8c-aa8b-69a57be22952)
+
 
