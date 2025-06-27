@@ -7,12 +7,11 @@ Relacion con SOLID:
 * Principio de Responsabilidad Única (SRP): Separan la logica de decisiones del resto del sistema.
 * Principio de Inversión de Dependencias (DIP): Permiten comunicar objetos a traves de abstracciones.
 
-Propósito  y  Tipo  del  Patrón:  Una  breve  explicación  del  problema  y  cómo  el  patrón seleccionado lo soluciona.
+Propósito  y  Tipo  del  Patrón:  El patrón Observer permite establecer una relación de suscripción entre objetos, de manera que cuando uno cambia su estado, todos sus observadores son notificados automáticamente. Es ideal para situaciones donde múltiples partes del sistema deben reaccionar a un evento sin estar acopladas entre sí.
 
 ## Motivacion
-Un  detalle  más  profundo  del  problema  que  enfrentaba  el  sistema  y  cómo  el  patrón de  diseño  ayuda  a  resolverlo.  Incluye  una  explicación  más  detallada  de  las  clases 
-implicadas  en  el  problema,  y  las  nuevas  clases  que  se  incorporan  con  el  uso  del patrón y su función.
+En el sistema de gestión de turnos, cada vez que se crea, modifica o cancela un turno, es necesario informar al médico y al paciente involucrados. Implementar el patrón Observer permite que los turnos actúen como sujetos (Subject) y que los médicos y pacientes se comporten como observadores (Observers). Esto asegura una notificación automática y desacoplada, el sistema no necesita saber cómo se notifica a cada observador, solo se encarga de informar que hubo un cambio.
 
 ## Estructura de Clases
-Incluir  un  diagrama  de  clases  UML  que  muestra  cómo  las  clases  implicadas  en  el problema  planteado  del  proyecto  se  relacionan  entre  sí  al  aplicar  el  patrón. Incluir 
-una  imagen incrustada, así como el enlace correctamente referenciado para ver el diagrama en detalle. 
+![image](https://github.com/user-attachments/assets/36bfa410-31cd-42e1-96e0-90925099e8d7)
+
