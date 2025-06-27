@@ -13,4 +13,5 @@ En el sistema de gestión de turnos, se deben crear distintos tipos de objetos c
 
 ## Estructura de Clases
 [Enlace del diagrama](https://drive.google.com/file/d/1nf-RteAhJidvewAZJty2dPK9ZfZhDocA/view?usp=sharing)
-![image](https://github.com/user-attachments/assets/a778969d-2d40-42c6-be8d-e119524eca82)
+![image](https://github.com/user-attachments/assets/8b630701-1554-4fd5-8f8f-76a7a646a1a5)
+
