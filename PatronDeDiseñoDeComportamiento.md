@@ -13,5 +13,6 @@ Propósito  y  Tipo  del  Patrón:  El patrón Observer permite establecer una r
 En el sistema de gestión de turnos, cada vez que se crea, modifica o cancela un turno, es necesario informar al médico y al paciente involucrados. Implementar el patrón Observer permite que los turnos actúen como sujetos (Subject) y que los médicos y pacientes se comporten como observadores (Observers). Esto asegura una notificación automática y desacoplada, el sistema no necesita saber cómo se notifica a cada observador, solo se encarga de informar que hubo un cambio.
 
 ## Estructura de Clases
+[Enlace del diagrama](https://drive.google.com/file/d/1pbEuUfzRWZfqrHzj2tz5NFHcwwk31Ww_/view?usp=sharing)
 ![image](https://github.com/user-attachments/assets/36bfa410-31cd-42e1-96e0-90925099e8d7)
 
