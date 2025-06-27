@@ -12,5 +12,4 @@ Propósito  y  Tipo  del  Patrón:  El patrón Factory Method permite delegar la
 En el sistema de gestión de turnos, se deben crear distintos tipos de objetos como Paciente, Medico, Recepcion. Sin el patrón Factory Method, la lógica de creación de estos objetos estaría dispersa por todo el sistema, generando acoplamiento innecesario y dificultando la modificación o extensión futura. Al implementar el patrón, se centraliza la lógica de creación en clases específicas como: UsuarioFafrica con metodos crearUsuario().
 
 ## Estructura de Clases
-
 ![image](https://github.com/user-attachments/assets/a778969d-2d40-42c6-be8d-e119524eca82)
