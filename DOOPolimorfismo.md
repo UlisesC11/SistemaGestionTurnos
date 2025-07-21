@@ -18,7 +18,12 @@ El polimorfismo es clave para varios principios SOLID:
 * L (Principio de Sustitucion de Liskov): Este principio se basa directamente en el polimorfismo, garantizando que los objetos de una subclase puedan usarse donde se espera la superclase sin alterar el comportamiento.
 * D (Principio de Inversion de Dependencia): Fomenta depender de abstracciones (interfaces) en lugar de clases concretas, lo cual es posible gracias al polimorfismo.
 
-
+### Relación con los patrones de diseño
+El polimorfismo es la base fundamental de muchos patrones de diseño, especialmente aquellos que dependen de interfaces para permitir el cambio de comportamiento:
+* Strategy: permite seleccionar algoritmos en tiempo de ejecución mediante una interfaz común.
+* State: cambia el comportamiento de un objeto según su estado actual, cada uno representado por una clase que implementa una interfaz.
+* Command: encapsula una acción en un objeto y permite ejecutar comandos de manera polimórfica.
+* Observer: permite que múltiples objetos reaccionen a un cambio, todos implementando una misma interfaz.
 
 
 
