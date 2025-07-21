@@ -1,7 +1,4 @@
 # Abstraccion
-Explicación de la abstracción como principio y su importancia en el diseño
-orientado a objetos. Cómo se relaciona con los principios SOLID y los patrones de
-diseño
 
 La abstracción es el principio que permite representar objetos del mundo real resaltando solo los aspectos esenciales y relevantes para el sistema. En términos prácticos, se trata de definir qué hace un objeto, sin entrar en los detalles de cómo lo hace. Esto se logra principalmente mediante:
 * Clases abstractas e interfaces, que definen contratos o comportamientos comunes sin especificar implementaciones concretas.
