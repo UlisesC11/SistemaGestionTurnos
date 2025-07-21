@@ -18,7 +18,7 @@ Permite que diferentes clases respondan a un mismo mensaje (metodo) de distintas
 Esto mejora la flexibilidad y extensibilidad del diseño, ya que se pueden tratar objetos de distintas clases de forma uniforme.
 
 
-* [Abstraccion]()
-* [Encapsulamiento]()
-* [Herencia]()
-* [Polimorfismo]()
+* [Abstraccion](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/DOOAbstraccion.md)
+* [Encapsulamiento](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/DOOEncapsulamiento.md)
+* [Herencia](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/DOOHerencia.md)
+* [Polimorfismo](https://github.com/UlisesC11/SistemaGestionTurnos/blob/main/DOOPolimorfismo.md)
