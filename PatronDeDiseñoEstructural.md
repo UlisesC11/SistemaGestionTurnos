@@ -13,5 +13,5 @@ En el sistema de gestión de turnos, existen múltiples módulos que interactúa
 
 
 ## Estructura de Clases
-[Enlace del diagrama](https://drive.google.com/file/d/1XXEPMDmZOtIwPil2EGjq1OKOeWUhc7oy/view?usp=sharing)
-![image](https://github.com/user-attachments/assets/b1eed268-ac0e-4f77-8d2f-34aca5dafcc3)
+[Enlace del diagrama](https://drive.google.com/file/d/1_jFPzQhSU1jevGqu3F3cQ34qtpQoTABq/view?usp=sharing)
+<img width="866" height="717" alt="image" src="https://github.com/user-attachments/assets/107f5308-f667-451d-828b-3f6bf4c86666" />
